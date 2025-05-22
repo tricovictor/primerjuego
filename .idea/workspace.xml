@@ -4,31 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="761fa6a8-89ca-44dc-8126-fe00cfae8358" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/assets/laser1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/laser5.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/meteorGrey_big1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/meteorGrey_big2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/meteorGrey_big3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/meteorGrey_big4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/meteorGrey_med1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/meteorGrey_med2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/meteorGrey_small1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/meteorGrey_small2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/meteorGrey_tiny1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/meteorGrey_tiny2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/music.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/player.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/regularExplosion00.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/regularExplosion01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/regularExplosion02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/regularExplosion03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/regularExplosion04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/regularExplosion05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/regularExplosion06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/regularExplosion07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/regularExplosion08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/car.py" afterDir="false" />
+    <list default="true" id="761fa6a8-89ca-44dc-8126-fe00cfae8358" name="Changes" comment="Funcionalidad al juego, agregamos las imagenes">
+      <change afterPath="$PROJECT_DIR$/assets/background.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/index.py" afterDir="false" />
     </list>
@@ -63,12 +40,15 @@
     "Python.index.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/victor/PycharmProjects/primerjuego/assets",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "last_opened_file_path": "/home/victor/PycharmProjects/shooter-pygame",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets" />
     </key>
   </component>
@@ -96,7 +76,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744302844046</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Funcionalidad al juego, agregamos las imagenes">
+      <option name="closed" value="true" />
+      <created>1745512113256</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1745512113256</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -112,6 +100,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Funcionalidad al juego, agregamos las imagenes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Funcionalidad al juego, agregamos las imagenes" />
   </component>
 </project>
