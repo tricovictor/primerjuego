@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="761fa6a8-89ca-44dc-8126-fe00cfae8358" name="Changes" comment="Funcionalidad al juego, agregamos las imagenes">
-      <change afterPath="$PROJECT_DIR$/assets/background.png" afterDir="false" />
+    <list default="true" id="761fa6a8-89ca-44dc-8126-fe00cfae8358" name="Changes" comment="Disparar - Meteoros de distintos tamaños - Colisiones">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/index.py" afterDir="false" />
     </list>
@@ -34,16 +33,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.car.executor": "Run",
-    "Python.index.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/victor/PycharmProjects/shooter-pygame",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.car.executor&quot;: &quot;Run&quot;,
+    &quot;Python.index.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/victor/PycharmProjects/shooter-pygame&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets" />
@@ -84,7 +83,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745512113256</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Disparar - Meteoros de distintos tamaños - Colisiones">
+      <option name="closed" value="true" />
+      <created>1747912338441</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1747912338441</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,6 +108,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Funcionalidad al juego, agregamos las imagenes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Funcionalidad al juego, agregamos las imagenes" />
+    <MESSAGE value="Disparar - Meteoros de distintos tamaños - Colisiones" />
+    <option name="LAST_COMMIT_MESSAGE" value="Disparar - Meteoros de distintos tamaños - Colisiones" />
   </component>
 </project>
