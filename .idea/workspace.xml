@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="761fa6a8-89ca-44dc-8126-fe00cfae8358" name="Changes" comment="Disparar - Meteoros de distintos tamaños - Colisiones">
+    <list default="true" id="761fa6a8-89ca-44dc-8126-fe00cfae8358" name="Changes" comment="Animacion para las explosiones">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/index.py" afterDir="false" />
     </list>
@@ -91,7 +91,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747912338441</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Animacion para las explosiones">
+      <option name="closed" value="true" />
+      <created>1747916025598</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1747916025598</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,6 +117,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Funcionalidad al juego, agregamos las imagenes" />
     <MESSAGE value="Disparar - Meteoros de distintos tamaños - Colisiones" />
-    <option name="LAST_COMMIT_MESSAGE" value="Disparar - Meteoros de distintos tamaños - Colisiones" />
+    <MESSAGE value="Animacion para las explosiones" />
+    <option name="LAST_COMMIT_MESSAGE" value="Animacion para las explosiones" />
   </component>
 </project>

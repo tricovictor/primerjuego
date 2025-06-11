@@ -5,11 +5,20 @@ WIDTH = 800
 #defino alto
 HEIGHT = 600
 BLACK = (0, 0, 0)
-
+x = 0
 pygame.init()
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 clock = pygame.time.Clock()
 background = pygame.image.load("assets/background.png").convert()
+
+def uploadBackground():
+    # Fondo en movimiento
+    global x
+    x_relativa = x % background.get_rect().width
+    screen.blit(background, (x_relativa - background.get_rect().width, 0))
+    if x_relativa < WIDTH:
+        screen.blit(background, (x_relativa, 0))
+    x += 5
 
 def draw_text(surface, text, size, x,y):
     font = pygame.font.SysFont("serif", size)
@@ -171,6 +180,7 @@ while running:
     #screen.fill(BLACK)
     screen.blit(background, [0,0])
     draw_text(screen,str(score),25, WIDTH // 2,10)
+    uploadBackground()
     all_sprites.draw(screen)
     pygame.display.flip()
 pygame.quit()
