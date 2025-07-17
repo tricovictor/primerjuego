@@ -27,6 +27,25 @@ def draw_text(surface, text, size, x,y):
     text_rect.midtop = (x,y)
     surface.blit(text_surface, text_rect)
 
+#Función para mostrar Game Over
+def show_go_screen():
+    screen.blit(background, [0, 0])                                      #dejo la pantalla con el fondo
+    draw_text(screen, "DISPAROS", 65, WIDTH // 2, HEIGHT / 4)
+    draw_text(screen, "(Gracias por jugar)", 27, WIDTH // 2, HEIGHT // 2)
+    draw_text(screen, "Presione tecla para salir", 17, WIDTH // 2, HEIGHT * 2/3)
+    draw_text(screen, "Puntaje total", 22, WIDTH // 2,  450)
+    draw_text(screen, str(score), 30, WIDTH // 2, 500)
+
+    pygame.display.flip()
+    waiting = True
+    while waiting:
+        clock.tick(60)
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                pygame.quit()
+            if event.type == pygame.KEYUP:         #pregunto si una tecla se ha soltado
+                waiting = False
+
 
 class Player(pygame.sprite.Sprite):
     def __init__(self):
@@ -148,9 +167,14 @@ for i in range(8):
     all_sprites.add(meteor)
     meteor_list.add(meteor)
 
+game_over = False
 running = True
 score = 0
 while running:
+    if game_over:  # mover la logica del juego para dentro de game over
+        running = False
+        show_go_screen()  # creo esta pantalla
+
     clock.tick(60)
 
     for event in pygame.event.get():
@@ -175,7 +199,8 @@ while running:
     hits = pygame.sprite.spritecollide(player, meteor_list,False)
     if hits:
         #Si el running esta en False cuando chocan se termina el juego
-        running = True
+        #running = True
+        game_over = True
 
     #screen.fill(BLACK)
     screen.blit(background, [0,0])
